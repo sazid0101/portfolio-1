@@ -1,0 +1,48 @@
+*{
+    margin: 5px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(234, 248, 248);
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+}
+.org-color{
+    color: #fda604;
+}
+.li-item{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+    
+}
+.li-item a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: rgb(112, 109, 109);
+    
+}
+.btn{
+    border-radius: 5px;
+    background-color:#fda604 ;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+.banner{
+    padding: 10px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(248, 244, 246);
+}
+.main-img{
+    height: 400px;
+    width: auto;
+}
