@@ -64,6 +64,7 @@ nav {
 }
 .banner-head{
     font-size: 35px;
+    color: rgb(106, 106, 96);
 }
 .banner-name{
     font-size: 75px;
@@ -79,7 +80,7 @@ nav {
 .about{
     text-align: center;
     margin: 70px 100px 70px 100px;
-    padding: 30px 80px 50px 80px;
+    padding: 30px 100px 40px 100px;
     background-color: rgb(236, 221, 202);
 }
 .about-head{
@@ -90,4 +91,12 @@ nav {
 .about-paragraph{
     font-size: 20px;
     font-weight: 500;
+}
+.about-info-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.about-info{
+    padding-right: 15px;
 }
