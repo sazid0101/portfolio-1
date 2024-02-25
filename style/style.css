@@ -1,16 +1,24 @@
 *{
     margin: 5px;
 }
+/* nav & banner part*/
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(234, 248, 248);
+    padding: 0px 30px 0px 150px;
 }
 
 .logo{
     font-size: 30px;
     font-weight: 800;
+}
+.logo-item{
+    display: flex;
+}
+.logo-img{
+    width: 30px;
 }
 .org-color{
     color: #fda604;
@@ -24,7 +32,7 @@ nav {
 }
 .li-item a{
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 30px;
     color: rgb(112, 109, 109);
     
 }
@@ -37,12 +45,49 @@ nav {
     padding: 10px 15px;
 }
 .banner{
-    padding: 10px 30px 30px 150px;
+    padding: 30px 40px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: rgb(248, 244, 246);
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 700px;
 }
 .main-img{
     height: 400px;
     width: auto;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-head{
+    font-size: 35px;
+}
+.banner-name{
+    font-size: 75px;
+    font-weight: 700;
+}
+.banner-paragraph{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* about part*/
+.about{
+    text-align: center;
+    margin: 70px 100px 70px 100px;
+    padding: 30px 80px 50px 80px;
+    background-color: rgb(236, 221, 202);
+}
+.about-head{
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.about-paragraph{
+    font-size: 20px;
+    font-weight: 500;
 }
