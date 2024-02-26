@@ -100,3 +100,48 @@ nav {
 .about-info{
     padding-right: 15px;
 }
+/*what i do section*/
+
+.what-i-do-head{
+    text-align: center;
+    margin: 30px 100px 40px 100px;
+    padding: 20px 170px 10px 170px;
+    background-color: rgb(219, 219, 232);
+}
+.skills-container{
+    display: flex;
+    margin: 0px 100px 70px 100px;
+    padding: 20px 100px 40px 100px;
+    
+    
+}
+.skill{
+    max-width:220px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(236, 229, 221);
+    box-shadow: rgb(58, 56, 56);
+}
+.skill-description{
+    padding: 20px;
+    color: rgb(67, 58, 58);
+}
+/*Resume part*/
+.resume-summary{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.resume-container{
+    display: flex;
+    margin: 0px 100px 70px 100px;
+    
+}
+.resume-column{
+    padding: 0px 40px 20px 40px;
+}
+.resume-column-title{
+    padding-bottom: 20px;
+    text-decoration: underline;
+
+}
