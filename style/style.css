@@ -155,3 +155,13 @@ nav {
     text-align: center;
     padding-bottom: 30px;
 }
+/*Footer part*/
+.footer-section{
+    display: flex;
+    margin: 0px 100px 30px 100px;
+    
+}
+.footer-column1{
+    max-width: 500px;
+    padding: 0px 40px 20px 40px;
+}
