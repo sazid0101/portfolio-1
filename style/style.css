@@ -134,7 +134,7 @@ nav {
 }
 .resume-container{
     display: flex;
-    margin: 0px 100px 70px 100px;
+    margin: 0px 100px 30px 100px;
     
 }
 .resume-column{
@@ -144,4 +144,14 @@ nav {
     padding-bottom: 20px;
     text-decoration: underline;
 
+}
+.place{
+    color: rgb(49, 48, 48);
+}
+.resume-description{
+    color: rgb(65, 56, 56);
+}
+.download-cv{
+    text-align: center;
+    padding-bottom: 30px;
 }
