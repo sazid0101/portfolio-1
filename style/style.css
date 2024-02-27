@@ -159,9 +159,25 @@ nav {
 .footer-section{
     display: flex;
     margin: 0px 100px 30px 100px;
+    background-color: rgb(210, 249, 249);
     
+}
+.foot-title{
+    padding-bottom: 20px;
 }
 .footer-column1{
     max-width: 500px;
     padding: 0px 40px 20px 40px;
+}
+.footer-column2 input[type="text"], .footer-column2 input[type="email"], textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    width: 300px;
+    
+}
+.all-right{
+    text-align: center;
 }
