@@ -52,8 +52,8 @@ nav {
     background-color: rgb(248, 244, 246);
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 700px;
+    background-position: bottom right,top left;
+    background-size: 600px;
 }
 .main-img{
     height: 400px;
